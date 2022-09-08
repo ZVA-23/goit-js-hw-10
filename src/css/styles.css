@@ -17,4 +17,22 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+    border-radius: 10px;
+      border: 1px solid #eee;
+}
+
+ul {
+  list-style: none;
+  width: 350px;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+li>img {
+  height: 50px;
 }
